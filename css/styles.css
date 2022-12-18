@@ -207,10 +207,13 @@ letter-spacing: 0.02em;
 {fill: var(--accent-color);} */
 
 .auth-nav :hover,
-.auth-nav :focus :active{
+.auth-nav :focus :active {
     color: var(--accent-color);
     fill: var(--accent-color);
 }
+.contacts-svg :hover,
+.contacts-svg :focus :active {
+    fill: var(--accent-color);}
 
 .contacts-svg:nth-child(1) {
     margin-right: 10px;
